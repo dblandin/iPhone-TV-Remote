@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3C42732162380950012B994 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C42731162380950012B994 /* UIKit.framework */; };
+		B3C42734162380950012B994 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C42733162380950012B994 /* Foundation.framework */; };
+		B3C42736162380950012B994 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C42735162380950012B994 /* CoreGraphics.framework */; };
+		B3C4273C162380950012B994 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3C4273A162380950012B994 /* InfoPlist.strings */; };
+		B3C4273E162380950012B994 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C4273D162380950012B994 /* main.m */; };
+		B3C42742162380950012B994 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C42741162380950012B994 /* AppDelegate.m */; };
+		B3C42751162380F00012B994 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C42750162380F00012B994 /* Default@2x.png */; };
+		B3C42753162381040012B994 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C42752162381040012B994 /* Default.png */; };
+		B3C42755162381070012B994 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C42754162381070012B994 /* icon.png */; };
+		B3C427571623810C0012B994 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C427561623810C0012B994 /* icon@2x.png */; };
+		B3C42765162383BC0012B994 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C42763162383BC0012B994 /* NavigationViewController.m */; };
+		B3C42766162383BC0012B994 /* NavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3C42764162383BC0012B994 /* NavigationViewController.xib */; };
+		B3C4276A162384080012B994 /* TVRemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C42768162384080012B994 /* TVRemoteViewController.m */; };
+		B3C4276B162384080012B994 /* TVRemoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3C42769162384080012B994 /* TVRemoteViewController.xib */; };
+		B3C4276F162384100012B994 /* DVRRemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C4276D1623840F0012B994 /* DVRRemoteViewController.m */; };
+		B3C42770162384100012B994 /* DVRRemoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3C4276E162384100012B994 /* DVRRemoteViewController.xib */; };
+		B3C427771623865C0012B994 /* Television.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C427761623865C0012B994 /* Television.m */; };
+		B3C4277A162386AD0012B994 /* TVRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C42779162386AC0012B994 /* TVRemote.m */; };
+		B3C4277D162387510012B994 /* DVR.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C4277C162387510012B994 /* DVR.m */; };
+		B3C42780162387580012B994 /* DVRRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C4277F162387580012B994 /* DVRRemote.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3C4272D162380950012B994 /* BlandinDevon_TVDVR_Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlandinDevon_TVDVR_Remote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C42731162380950012B994 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3C42733162380950012B994 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3C42735162380950012B994 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3C42739162380950012B994 /* BlandinDevon_TVDVR_Remote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlandinDevon_TVDVR_Remote-Info.plist"; sourceTree = "<group>"; };
+		B3C4273B162380950012B994 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3C4273D162380950012B994 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3C4273F162380950012B994 /* BlandinDevon_TVDVR_Remote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlandinDevon_TVDVR_Remote-Prefix.pch"; sourceTree = "<group>"; };
+		B3C42740162380950012B994 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3C42741162380950012B994 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3C42750162380F00012B994 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B3C42752162381040012B994 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B3C42754162381070012B994 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B3C427561623810C0012B994 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		B3C42762162383BC0012B994 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		B3C42763162383BC0012B994 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		B3C42764162383BC0012B994 /* NavigationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationViewController.xib; sourceTree = "<group>"; };
+		B3C42767162384080012B994 /* TVRemoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVRemoteViewController.h; sourceTree = "<group>"; };
+		B3C42768162384080012B994 /* TVRemoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVRemoteViewController.m; sourceTree = "<group>"; };
+		B3C42769162384080012B994 /* TVRemoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TVRemoteViewController.xib; sourceTree = "<group>"; };
+		B3C4276C1623840F0012B994 /* DVRRemoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVRRemoteViewController.h; sourceTree = "<group>"; };
+		B3C4276D1623840F0012B994 /* DVRRemoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVRRemoteViewController.m; sourceTree = "<group>"; };
+		B3C4276E162384100012B994 /* DVRRemoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DVRRemoteViewController.xib; sourceTree = "<group>"; };
+		B3C427751623865C0012B994 /* Television.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Television.h; sourceTree = "<group>"; };
+		B3C427761623865C0012B994 /* Television.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Television.m; sourceTree = "<group>"; };
+		B3C42778162386AC0012B994 /* TVRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVRemote.h; sourceTree = "<group>"; };
+		B3C42779162386AC0012B994 /* TVRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVRemote.m; sourceTree = "<group>"; };
+		B3C4277B162387500012B994 /* DVR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVR.h; sourceTree = "<group>"; };
+		B3C4277C162387510012B994 /* DVR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVR.m; sourceTree = "<group>"; };
+		B3C4277E162387580012B994 /* DVRRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVRRemote.h; sourceTree = "<group>"; };
+		B3C4277F162387580012B994 /* DVRRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVRRemote.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3C4272A162380950012B994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C42732162380950012B994 /* UIKit.framework in Frameworks */,
+				B3C42734162380950012B994 /* Foundation.framework in Frameworks */,
+				B3C42736162380950012B994 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3C42722162380950012B994 = {
+			isa = PBXGroup;
+			children = (
+				B3C427561623810C0012B994 /* icon@2x.png */,
+				B3C42754162381070012B994 /* icon.png */,
+				B3C42752162381040012B994 /* Default.png */,
+				B3C42750162380F00012B994 /* Default@2x.png */,
+				B3C42737162380950012B994 /* BlandinDevon_TVDVR_Remote */,
+				B3C42730162380950012B994 /* Frameworks */,
+				B3C4272E162380950012B994 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3C4272E162380950012B994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3C4272D162380950012B994 /* BlandinDevon_TVDVR_Remote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3C42730162380950012B994 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3C42731162380950012B994 /* UIKit.framework */,
+				B3C42733162380950012B994 /* Foundation.framework */,
+				B3C42735162380950012B994 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3C42737162380950012B994 /* BlandinDevon_TVDVR_Remote */ = {
+			isa = PBXGroup;
+			children = (
+				B3C42740162380950012B994 /* AppDelegate.h */,
+				B3C42741162380950012B994 /* AppDelegate.m */,
+				B3C42767162384080012B994 /* TVRemoteViewController.h */,
+				B3C42768162384080012B994 /* TVRemoteViewController.m */,
+				B3C42769162384080012B994 /* TVRemoteViewController.xib */,
+				B3C4276C1623840F0012B994 /* DVRRemoteViewController.h */,
+				B3C4276D1623840F0012B994 /* DVRRemoteViewController.m */,
+				B3C4276E162384100012B994 /* DVRRemoteViewController.xib */,
+				B3C42738162380950012B994 /* Supporting Files */,
+				B3C42762162383BC0012B994 /* NavigationViewController.h */,
+				B3C42763162383BC0012B994 /* NavigationViewController.m */,
+				B3C42764162383BC0012B994 /* NavigationViewController.xib */,
+				B3C42778162386AC0012B994 /* TVRemote.h */,
+				B3C4277B162387500012B994 /* DVR.h */,
+				B3C4277C162387510012B994 /* DVR.m */,
+				B3C4277E162387580012B994 /* DVRRemote.h */,
+				B3C4277F162387580012B994 /* DVRRemote.m */,
+				B3C42779162386AC0012B994 /* TVRemote.m */,
+				B3C427751623865C0012B994 /* Television.h */,
+				B3C427761623865C0012B994 /* Television.m */,
+			);
+			path = BlandinDevon_TVDVR_Remote;
+			sourceTree = "<group>";
+		};
+		B3C42738162380950012B994 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3C42739162380950012B994 /* BlandinDevon_TVDVR_Remote-Info.plist */,
+				B3C4273A162380950012B994 /* InfoPlist.strings */,
+				B3C4273D162380950012B994 /* main.m */,
+				B3C4273F162380950012B994 /* BlandinDevon_TVDVR_Remote-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3C4272C162380950012B994 /* BlandinDevon_TVDVR_Remote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C42745162380950012B994 /* Build configuration list for PBXNativeTarget "BlandinDevon_TVDVR_Remote" */;
+			buildPhases = (
+				B3C42729162380950012B994 /* Sources */,
+				B3C4272A162380950012B994 /* Frameworks */,
+				B3C4272B162380950012B994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlandinDevon_TVDVR_Remote;
+			productName = BlandinDevon_TVDVR_Remote;
+			productReference = B3C4272D162380950012B994 /* BlandinDevon_TVDVR_Remote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3C42724162380950012B994 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Devon Code Shop";
+			};
+			buildConfigurationList = B3C42727162380950012B994 /* Build configuration list for PBXProject "BlandinDevon_TVDVR_Remote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3C42722162380950012B994;
+			productRefGroup = B3C4272E162380950012B994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3C4272C162380950012B994 /* BlandinDevon_TVDVR_Remote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3C4272B162380950012B994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C4273C162380950012B994 /* InfoPlist.strings in Resources */,
+				B3C42751162380F00012B994 /* Default@2x.png in Resources */,
+				B3C42753162381040012B994 /* Default.png in Resources */,
+				B3C42755162381070012B994 /* icon.png in Resources */,
+				B3C427571623810C0012B994 /* icon@2x.png in Resources */,
+				B3C42766162383BC0012B994 /* NavigationViewController.xib in Resources */,
+				B3C4276B162384080012B994 /* TVRemoteViewController.xib in Resources */,
+				B3C42770162384100012B994 /* DVRRemoteViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3C42729162380950012B994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C4273E162380950012B994 /* main.m in Sources */,
+				B3C42742162380950012B994 /* AppDelegate.m in Sources */,
+				B3C42765162383BC0012B994 /* NavigationViewController.m in Sources */,
+				B3C4276A162384080012B994 /* TVRemoteViewController.m in Sources */,
+				B3C4276F162384100012B994 /* DVRRemoteViewController.m in Sources */,
+				B3C427771623865C0012B994 /* Television.m in Sources */,
+				B3C4277A162386AD0012B994 /* TVRemote.m in Sources */,
+				B3C4277D162387510012B994 /* DVR.m in Sources */,
+				B3C42780162387580012B994 /* DVRRemote.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3C4273A162380950012B994 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C4273B162380950012B994 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3C42743162380950012B994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Devon Blandin (99TNH86F6P)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "F3337DB2-97CB-4B55-816E-D48F8F62F495";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3C42744162380950012B994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Devon Blandin (99TNH86F6P)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "F3337DB2-97CB-4B55-816E-D48F8F62F495";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3C42746162380950012B994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlandinDevon_TVDVR_Remote/BlandinDevon_TVDVR_Remote-Prefix.pch";
+				INFOPLIST_FILE = "BlandinDevon_TVDVR_Remote/BlandinDevon_TVDVR_Remote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3C42747162380950012B994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlandinDevon_TVDVR_Remote/BlandinDevon_TVDVR_Remote-Prefix.pch";
+				INFOPLIST_FILE = "BlandinDevon_TVDVR_Remote/BlandinDevon_TVDVR_Remote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3C42727162380950012B994 /* Build configuration list for PBXProject "BlandinDevon_TVDVR_Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C42743162380950012B994 /* Debug */,
+				B3C42744162380950012B994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C42745162380950012B994 /* Build configuration list for PBXNativeTarget "BlandinDevon_TVDVR_Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C42746162380950012B994 /* Debug */,
+				B3C42747162380950012B994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3C42724162380950012B994 /* Project object */;
+}
